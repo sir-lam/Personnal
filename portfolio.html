@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdisallam Noor | Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        color: #222;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      header {
+        padding: 24px 0;
+        text-align: center;
+        background: #ffffff;
+        border-bottom: 1px solid #ddd;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      nav {
+        margin-top: 12px;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+
+      .box {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        align-items: start;
+      }
+
+      .project {
+        margin-bottom: 0;
+        padding: 10px;
+      }
+
+      .project a {
+        color: #000;
+        font-weight: bold;
+      }
+
+      img {
+        display: block;
+        max-width: 100px;
+        height: 100px;
+        margin: 10px auto 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 700px) {
+        .projects-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px 0 30px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Abdisalam Noor</h1>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="https://github.com/sir-lam" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about">
+        <div class="box">
+          <h2>About Me</h2>
+          <p>
+            I am a software developer with a passion for creating innovative solutions.
+            I have experience in JavaScript, HTML, and CSS. My goal is to keep learning
+            and grow continuously in technology.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="box">
+          <h2>Projects</h2>
+
+          <div class="projects-grid">
+            <div class="project">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTKwzl4KuDBdNV1swerQXVDbAG0krq0QQQGX1WhGFbw&s=10" alt="Calculator Screenshot" width="180" />
+              <a href="https://github.com/sir-lam/Calculator.git" target="_blank" rel="noreferrer">Calculator</a>
+              <p>I built this project to practice working with JavaScript statements and their methods.</p>
+            </div>
+
+            <div class="project">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5jIRAxmA-F2JzGV196YS-0yn0dKgEL25eq7R6rrDSyJf66Jme_wIqqZcB&s=10" alt="Objects Lab Screenshot" width="180" />
+                <a href="https://github.com/sir-lam/phase-0-js-objects-lab.git" target="_blank" rel="noreferrer">Objects Lab</a>
+              <p>I built this project to practice working with JavaScript objects and their methods.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Abdisallam Noor
+    </footer>
+  </body>
+</html>
